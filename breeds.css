@@ -1,0 +1,9 @@
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    color: #3d3d3d;
+}
+
+h1 span {
+    color: #b1b1b1;
+}
