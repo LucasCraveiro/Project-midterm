@@ -1,14 +1,14 @@
-div.p3-div1 h1  {
+    h1  {
     font-family: 'Righteous', cursive;
     font-size: 30px;
 }
 
-div.p3-div1 h2  {
+    h2  {
     font-family: 'Righteous', cursive;
     font-size: 25px;
 }
 
-div.p3-div1 h3  {
+    h3  {
     font-family: 'Righteous', cursive;
     font-size: 18px;
     color: darkgrey;
@@ -25,19 +25,54 @@ div.p3-div1 {
 ul.p3-ul1 {
     list-style: disc;
     font-size: 20px;
+    padding: 20px;
 }
 
 img.p3-img1 {
     position: absolute;
-    top: 0px;
-    right: -650px;
+    top: -20px;
+    right: -550px;
     box-shadow: 2px 2px 8px;
+    width: 300px;
 
 }
 
 img.p3-img2 {
     position: absolute;
-    top: 360px;
-    right: -650px;
+    top: 210px;
+    right: -450px;
     box-shadow: 2px 2px 8px;
+    width: 300px;
+}
+
+div.p3-div2 {
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    
+}
+
+div.p3-div2 img:hover {
+    opacity: 0.5;
+}
+
+div.p3-div2 a {
+    margin: 20px;
+    padding: 10px;
+}
+
+div.p3-div3 {
+    position: absolute;
+    top: 1600px;
+    left: 50px;
+    border-top: 2px black;
+}
+
+div.p3-div3 img:hover {
+    opacity: 0.5;
+}
+
+div.p3-div3 a {
+    margin: 5px;
+    padding: 5px;
 }
