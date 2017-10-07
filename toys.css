@@ -1,15 +1,106 @@
-    h1  {
+h1  {
     font-family: 'Righteous', cursive;
     font-size: 30px;
+    text-align: center;
+    margin-top: 10px; 
 }
 
-    h2  {
+h2  {
     font-family: 'Righteous', cursive;
     font-size: 25px;
+    font-style: italic;
+    margin-left: 10px;
 }
 
-    h3  {
+h3  {
     font-family: 'Righteous', cursive;
     font-size: 18px;
     color: darkgrey;
+}
+
+img {
+    position: absolute;
+    top: 75px;
+    left: 350px;
+    box-shadow: 2px 2px 8px black;
+} 
+
+div.pg4-div1 {
+    position: absolute;
+    top: 600px;
+    
+}
+
+#img2 {
+    position: absolute;
+    left: 600px;
+}
+
+#img3 {
+    position: absolute;
+    left: 850px;
+}
+
+div.pg4-div2 {
+    position: absolute;
+    top: 900px;
+    
+}
+
+#img4 {
+    position: absolute;
+    left: 600px;
+}
+
+#img5 {
+    position: absolute;
+    left: 850px;
+}
+
+div.pg4-div3 {
+    position: absolute;
+    top: 1200px;
+    
+}
+
+#img6 {
+    position: absolute;
+    left: 600px;
+}
+
+#img7 {
+    position: absolute;
+    left: 850px;
+}
+
+div.pg4-div4 {
+    position: absolute;
+    top: 1600px;
+    
+}
+
+#img8 {
+    position: absolute;
+    left: 620px;
+}
+
+#img9 {
+    position: absolute;
+    left: 900px;
+}
+
+div.pg4-div5 {
+    position: absolute;
+    top: 1900px;
+    
+}
+
+#img10 {
+    position: absolute;
+    left: 820px;
+}
+
+#img11 {
+    position: absolute;
+    left: 1100px;
 }
