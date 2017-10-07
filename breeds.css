@@ -1,13 +1,19 @@
+
 body {
-    width: 1200px;
+    
     margin: 0 auto;
-    background-color: #f2f2f2;
+    overflow: scroll;
+    background-color: #f9f8ed;
 }
+
+
 
 .p2-header {
     background-color: white;
-    padding: 40px;
+    padding: 60px;
     text-align: center;
+    
+    
 }
 
 
@@ -64,24 +70,23 @@ a:hover {
     color: white;
 }
 
+.p2-box {
+    clear: both;
+}
+
 .p2-search-box {
-    width: 25%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 20px;
     background-color: white;
     padding: 2px 5px 5px 10px;
-    padding-top: 5px;
     float: right;
 }
 
 
-
-
-
-
 .p2-images {
+    clear: both;
     width: 1000px;
     margin: 0 auto;
 }
@@ -96,6 +101,7 @@ a:hover {
     font-family: 'Righteous', cursive;
     color: #3d3d3d;
     padding-bottom: 40px;
+    float: left;
 }
 
 
@@ -124,4 +130,17 @@ img:hover {
     padding-left: 10px;
 }
 
+.p2-short {
+    padding: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
 
+.p2-footer {
+    background-color: white;
+    text-align: center;
+    padding: 60px;
+    clear: both; 
+}
