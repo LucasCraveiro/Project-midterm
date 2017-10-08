@@ -9,7 +9,7 @@ body {
 
 
 .p2-header {
-    background-color: white;
+    background-color: #f9f8f4;
     padding: 60px;
     text-align: center;
     
@@ -179,15 +179,12 @@ a:hover {
     padding-top: 30px;
     font-family: 'Righteous', cursive;
     color: #3d3d3d;
-    background: url(image/pg2-dog-paw.png)no-repeat left center;
-    background-size: 50%;
+    
 }
 
 .p2-footer {
     text-align: center;
-    padding: 60px;
-    background: url(image/pg2-dog-paw.png)no-repeat right center;
-    background-size: 50px;
-    
+    padding: 60px;  
     clear: both; 
+    background-color: #f9f8f4;
 }
