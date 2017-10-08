@@ -1,3 +1,10 @@
+body {
+    
+    margin: 0 auto;
+    overflow: scroll;
+    background-color: #f9f8ed;
+}
+
 h1  {
     font-family: 'Righteous', cursive;
     font-size: 30px;

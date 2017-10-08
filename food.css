@@ -1,4 +1,62 @@
+body {
+    
+    margin: 0 auto;
+    overflow: scroll;
+    background-color: #f9f8ed;
+}
 
+.p3-header {
+    background-color: #f9f8f4;
+    padding: 60px;
+    text-align: center;
+        
+}
+
+.p3-header h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    color: #3d3d3d;
+    padding: 0 50px;
+    text-align: center;
+    
+}
+
+
+
+.p3-header h1  {
+    color: #b1b1b1;
+}
+
+.p3-header span  {
+    color: black;
+}
+
+.p3-navbar {
+    background-color: #b1b1b1;
+    overflow: hidden;
+}
+
+.p3-navbar li {
+    width: 80px;
+    float: left;
+    display: inline; 
+}
+
+
+.p3-navbar a {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 18px;
+    text-decoration: none;
+    width: 40px;
+    font-size: 20px;
+}
+
+.p3-navbar a:hover {
+    background: url(image/pg2-dog-paw.png)no-repeat left center;
+    background-size: 50%;
+}
 
 h1  {
     font-family: 'Righteous', cursive;
@@ -18,7 +76,7 @@ h1  {
 
 div.p3-div1 {
     position: absolute;
-    top: 150px;
+    top: 300px;
     left: 50px;
 }
 
@@ -49,29 +107,51 @@ img.p3-img2 {
 
 div.p3-div2 {
     position: absolute;
-    top: 600px;
+    top: 800px;
+    left: 50px;
+    
+}
+
+div.p3-div2-1 {
+    position: absolute;
+    top: 1400px;
     left: 50px;
     
 }
 
 div.p3-div2 img:hover {
-    opacity: 0.5;
+    opacity: 0.7;
+    box-shadow: 2px 2px 8px black;
+
+}
+
+div.p3-div2-1 img:hover {
+    opacity: 0.7;
+    box-shadow: 2px 2px 8px black;
+
 }
 
 div.p3-div2 a {
     margin: 20px;
-    padding: 10px;
+    padding: 15px;
+}
+
+div.p3-div2-1 a {
+    margin: 20px;
+    padding: 15px;
 }
 
 div.p3-div3 {
     position: absolute;
-    top: 1600px;
+    top: 1800px;
     left: 50px;
     border-top: 2px black;
 }
 
 div.p3-div3 img:hover {
-    opacity: 0.5;
+    opacity: 0.7;
+    box-shadow: 2px 2px 8px black;
+
 }
 
 div.p3-div3 a {
