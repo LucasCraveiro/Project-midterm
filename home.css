@@ -1,0 +1,336 @@
+@charset "UTF-8";
+
+body {
+    background-color: #F9F8ED;
+}
+
+/* --- clearfix --- */
+.p1-list-breeds:after, .p1-footer-links:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ===== home.css  ===== */
+/* --- header  --- */
+.p1-header {
+  padding: 30px 0 50px;
+  background-color: #fff;
+}
+
+/* --- wrapper  --- */
+.p1-wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.p1-wrapper:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 74px;
+  left: 200px;
+  width: 1000px;
+  border: 1px solid  #ccc;
+}
+.p1-wrapper:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 70px;
+  left: 195px;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+
+.p1-main-title {
+    height: 124px;
+    padding-top: 84px;
+    text-align: center;
+    font-size: 70px;
+    color: #3D3D3D;
+    font-family: 'Righteous', cursive;
+    background: url(image/p1-logo.png) 48% 0 no-repeat;
+    background-size: 417px 208px;
+}
+    .p1-main-title span {
+        display: inline-block;
+        margin-left: 20%;
+        color: #B1B1B1;
+    }
+
+.p1-sec-cmn {
+    height: 800px;
+}
+.p1-sec-cmn#breeds {
+  height: 1200px;
+}
+.p1-sec-cmn#foods {
+  position: relative;
+}
+.p1-sec-cmn#foods:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  width: 90px;
+  height: 425px;
+  margin-left: -45px;
+  background: url(image/p1-foods-line.png) repeat-y;
+}
+.p1-sec-cmn#introduction {
+  height: 600px;
+}
+    .p1-sec-cmn#introduction img {
+      margin-left: 10%;
+    }
+
+    .p1-sec-cmn a {
+        height: 100%;
+        text-decoration: none;
+    }
+    .p1-sec-title {
+        position: relative;
+        margin: 0 auto 70px;
+        text-align: center;
+        color: #B1B1B1;
+        font-size: 30px;
+        font-family: 'Righteous', cursive;
+    }
+    .p1-sec-title.about {
+      color: #333;
+      font-size: 50px;
+    }
+    .p1-sec-title:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      /*left: 0;*/
+      width: 500px;
+      border: 1px solid #ccc;
+    }
+    .p1-sec-title.about:before {
+        width: 1190px;
+        top: -100px;
+        left: 10px;
+    }
+    .p1-sec-title.about::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: -104px;
+      left: 0;
+      width: 10px;
+      height: 10px;
+      background-color: #ccc;
+      border-radius: 50%;
+    }
+    .p1-sec-title.breeds:before {
+        /*left: -200px;*/
+    }
+    .p1-sec-title.foods:before{
+        right: 0;
+    }
+    .p1-sec-title.toys:before {
+        /*left: -160px;*/
+    }
+    .p1-sec-title.contact:before {
+        right: 0;
+    }
+    .p1-lead-text {
+      margin-bottom: 50px;
+      font-family: 'Righteous', cursive;
+      font-size: 35px;
+      text-align: center;
+    }
+
+/* --- navigation --- */
+.p1-gnavi {
+    position: fixed;
+    top: 50%;
+    left: 35px;
+    margin-top: -90px;
+    z-index: 9999;
+}
+    .p1-gnavi li {
+        margin-bottom: 22px;
+    }
+        .p1-gnavi li a {
+            display: block;
+            margin-bottom: 15px;
+            text-decoration: none;
+            color: #8e8e8e;
+        }
+        .p1-gnavi li a:hover {
+            position: relative;
+            opacity: .8;
+        }
+        .p1-gnavi li a:hover:before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: -8px;
+          left: -20px;
+          width: 31px;
+          height: 28px;
+          background: url(image/cmn-navi-hover.png) no-repeat;
+          background-size: 31px 28px;
+        }
+
+.p1-link-top {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    width: 100px;
+    height: 261px;
+    /*margin-top: -130px;*/
+    background: url(image/cmn-top.png) no-repeat;
+    z-index: 9999;
+}
+.p1-link-top:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+/* --- footer --- */
+.p1-footer {
+  position: relative;
+  /*height: 100px;*/
+  background-color: #fff;
+}
+.p1-footer-links {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+  .p1-footer-links li {
+    display: inline-block;
+    margin-left: 70px;
+  }
+    .p1-footer-links li a {
+      position: relative;
+      padding-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-size: 15px;
+    }
+    .p1-footer-links li a:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 6px;
+      height: 6px;
+      margin-top: -5px;
+      border-top: 2px solid #8e8e8e;
+      border-right: 2px solid #8e8e8e;
+      transform: rotate(45deg);
+    }
+    .p1-footer-links li a:hover {
+      opacity: .7;
+    }
+
+.p1-footer .p1-copyright {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* --- button --- */
+.p1-btn-link {
+  width: 400px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid  #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+  .p1-btn-link a {
+    display: block;
+    color: #333;
+  }
+  .p1-btn-link a:hover {
+    opacity: .7;
+    background-color: #ccc;
+    color: #fff;
+  }
+/* --- sns icon --- */
+.p1-list-sns {
+  padding-bottom: 50px;
+}
+  .p1-list-sns li {
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+  }
+    .p1-list-sns li a {
+        display: block;
+        height: 100%;
+        text-decoration: none;
+        background: url(image/cmn-sns-icons.png) 0 0;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .p1-list-sns li:nth-child(2) a {
+      background-position: 51px 0;
+    }
+    .p1-list-sns li:nth-child(3) a {
+      background-position: 101px 0;
+    }
+    .p1-list-sns li a:hover {
+      opacity: .7;
+      background-position: 0 51px;
+    }
+    .p1-list-sns li:nth-child(2) a:hover {
+      background-position: 51px 51px;
+    }
+    .p1-list-sns li:nth-child(3) a:hover {
+      background-position: 101px 51px;
+    }
+
+
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 960px;
+  height: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  /*justify-content: center;*/
+  align-content: flex-start;
+}
+.item {
+  width: 25%;
+}
+.item a {
+  display: block;
+  overflow: hidden;
+}
+.item a:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+.item a img {
+  vertical-align: bottom;
+  transition: transform 0.4s linear;
+}
+.item a img:hover {
+  transform: scale(1.2);
+}
+.item img {
+  width: 100%;
+}
