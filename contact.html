@@ -6,48 +6,172 @@
         <link rel="stylesheet" href="reset.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Righteous" rel="stylesheet">
         <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="home.css">
         <script type="text/javascript" src="common.js"></script>
     </head>
     <body>
-      <h1 class="p5-title">CONTACT</h1>
-      <form class="box-form" action="">
-        <p>
-            <label for="firstname">First name:</label>
-            <input id="firstname" type="text" name="firstname">
-        </p>
-        <p>
-            <label for="lastname">Last name:</label>
-            <input id="lastname" type="text" name="lastname">
-        </p>
-        <p>
-            <label for="phone">Phone number:</label>
-            <input id="phone" type="number" name="phone">
-        </p>
-        <p>
-          <label for="email">Email address:</label>
-          <input id="email" type="email">
-        </p>
-        <p>
-          <label for="">Have you ever had a dog?</label>
-          <input type="radio" name="experience">yes
-          <input type="radio" name="experience">no
-        </p>
-        <p>
-            <label for="type">Dog type</label>
-            <select id="type" class="" name="type">
+
+      <div id="top" class="p1-wrapper">
+
+      <h1 class="p5-title">CONTACT US</h1>
+
+      <div class="p5-container">
+
+      <div class="p5-map-box">
+        <h2 class="p5-info-title">DOG <span>CLUB</span></h2>
+        <ul class="p5-list-info">
+          <li>Main Floor<br>
+          609 West Hastings Street,<br>
+          Vancouver BC, V6B 4W4<br>
+          Canada</li>
+          <li>+1 604-620-1111</li>
+          <li>info@ciccc.ca</li>
+        </ul>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.5388931218636!2d-123.11518658391282!3d49.28513397851744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548671787c9619d5%3A0x695f6d016bb1e13a!2s609+W+Hastings+St%2C+Vancouver%2C+BC+V6B!5e0!3m2!1sja!2sca!4v1507339196532" width="1200" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+
+
+      <form class="p5-box-form" action="">
+        <table class="p5-table-form">
+          <tbody>
+
+
+        <tr>
+            <th><label for="firstname">First name<span class="required">＊</span></label></th>
+            <td><input id="firstname" type="text" name="firstname"></td>
+        </tr>
+        <tr>
+            <th><label for="lastname">Last name<span class="required">＊</span></label></th>
+            <td><input id="lastname" type="text" name="lastname"></td>
+        </tr>
+        <tr>
+          <th><label for="email">Email address<span class="required">＊</span></label></th>
+          <td><input id="email" type="email"></td>
+        </tr>
+        <tr>
+            <th><label for="phone">Phone number</label></th>
+            <td><input id="phone" type="tel" name="phone"></td>
+        </tr>
+        <tr>
+            <th><label for="phone">Address</label></th>
+            <td><input id="phone" type="text" name="address"></td>
+        </tr>
+
+        <!-- <tr>
+          <th><label for="">Have you ever had a dog?</label></th>
+          <td><input type="radio" name="experience">yes</td>
+          <td><input type="radio" name="experience">no</td>
+        </tr> -->
+        <!-- <tr>
+            <th><label for="type">Dog type</label></th>
+            <td><select id="type" class="" name="type">
               <option value="">dog1</option>
               <option value="">dog2</option>
               <option value="">dog3</option>
               <option value="">dog4</option>
-            </select>
-        </p>
-            <textarea name="name" rows="8" cols="80" placeholder="Whatever you want to ask"></textarea>
-            <div>
+            </select></td>
+        </tr> -->
+        <tr>
+          <th>contact<span class="required">＊</span></th>
+          <td><textarea name="name" rows="8" cols="80" placeholder="Whatever you want to ask"></textarea></td>
+        </tr>
+        </tbody>
+      </table>
+
+            <div class="p5-form-button">
               <button type="submit">submit</button>
               <button type="reset">reset</button>
             </div>
       </form>
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.5388931218636!2d-123.11518658391282!3d49.28513397851744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548671787c9619d5%3A0x695f6d016bb1e13a!2s609+W+Hastings+St%2C+Vancouver%2C+BC+V6B!5e0!3m2!1sja!2sca!4v1507339196532" width="1200" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <!-- /.container -->
+
+
+
+      <!-- <table class="form">
+      <tbody>
+      <tr>
+      <th>お問い合わせ項目<span class="required">＊</span></th>
+      <td> [select* your-menu "ご意見・ご要望・ご質問" "サポートについて"] </td>
+      </tr>
+      <tr>
+      <th>お名前 <span class="required">＊</span></th>
+      <td> [text* your-name] </td>
+      </tr>
+      <tr>
+      <th>メールアドレス<span class="required">＊</span></th>
+      <td>[email* your-email] </td>
+      </tr>
+      <tr>
+      <th>郵便番号</th>
+      <td>[text your-postalcode]</td>
+      </tr>
+      <tr>
+      <th>ご住所</th>
+      <td> [text your-address ]</td>
+      </tr>
+      <tr>
+      <th>電話番号(半角)</th>
+      <td> [tel your-tel]</td>
+      </tr>
+      <tr>
+      <th>お問い合わせ内容<span class="required">＊</span></th>
+      <td> [textarea* your-message] </td>
+      </tr>
+      </tbody>
+      </table> -->
+
+
+
+
+      <ul class="p1-list-sns">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- wrapper -->
+
+
+
+    <nav class="p1-gnavi">
+        <ul>
+            <li><a href="home.html">TOP</a></li>
+            <li><a href="breeds.html">BREEDS</a></li>
+            <li><a href="food.html">FOODS</a></li>
+            <li><a href="toys.html">TOY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div id="page-top" class="p1-link-top" onclick="scrollToTop();">
+    </div>
+    <!-- /.p1-gnavi  -->
+
+    <footer class="p1-footer">
+      <ul class="p1-footer-links">
+          <li><a href="home.html">TOP</a></li>
+          <li><a href="breeds.html">BREEDS</a></li>
+          <li><a href="food.html">FOODS</a></li>
+          <li><a href="toys.html">TOY</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <p class="p1-copyright">&copy;DOG CLUB 2017</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
     </body>
   </html>
