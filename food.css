@@ -75,9 +75,11 @@ h1  {
 }
 
 div.p3-div1 {
-    /*position: absolute;
-    top: 300px;
-    left: 50px;*/
+
+    position: relative;
+    top: 20px;
+    left: 120px;
+
 }
 
 div.p3-div1 p {
@@ -95,33 +97,32 @@ ul.p3-ul1 {
 }
 
 img.p3-img1 {
-    /*position: absolute;
-    top: -20px;
-    right: -550px;*/
+    position: relative;
+    left: 600px;
+    top: -100px;
     box-shadow: 2px 2px 8px;
     width: 300px;
 
 }
 
 img.p3-img2 {
-    /*position: absolute;
-    top: 210px;
-    right: -450px;*/
+    position: relative;
+    left: 350px;
+    top: -350px;
     box-shadow: 2px 2px 8px;
     width: 300px;
 }
 
 div.p3-div2 {
-    /*position: absolute;
-    top: 800px;
-    left: 50px;*/
-
+    position: relative;
+    top: -50px;
+    left: 150px;
 }
 
 div.p3-div2-1 {
-    /*position: absolute;
-    top: 1400px;
-    left: 50px;*/
+    position: relative;
+    top: -20px;
+    left: 150px;
 
 }
 
@@ -148,9 +149,9 @@ div.p3-div2-1 a {
 }
 
 div.p3-div3 {
-    /*position: absolute;
-    top: 1800px;
-    left: 50px;*/
+    position: relative;
+    top: -10px;
+    left: 150px;
     border-top: 2px black;
 }
 
