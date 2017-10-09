@@ -78,139 +78,144 @@ h3  {
 }
 
 .imgdog {
-    /*position: absolute;
-    top: 320px;
-    right: 340px;*/
+    position: relative;
+    top: 0px;
+    left: 280px;
     box-shadow: 2px 2px 8px black;
 }
 
 div.pg4-div1 {
-    /*position: absolute;
-    top: 800px;*/
+    position: relative;
+    top: 10px;
+    left: 200px;
 
 }
 
 #img1 {
-    /*position: absolute;
-    left: 300px;*/
+    position: relative;
+    left: 0px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img2 {
-    /*position: absolute;
-    left: 600px;*/
+    position: relative;
+    left: 50px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img3 {
-    /*position: absolute;
-    left: 850px;*/
+    position: relative;
+    left: 100px;
     box-shadow: 2px 2px 8px black;
 }
 
 div.pg4-div2 {
-    /*position: absolute;
-    top: 1100px;*/
+    position: relative;
+    top: 20px;
+    left: 200px;
 
 }
 
 #img4 {
-    /*position: absolute;
-    left: 300px;*/
+    position: relative;
+    left: 0px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img5 {
-    /*position: absolute;
-    left: 600px;*/
+    position: relative;
+    left: 50px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img6 {
-    /*position: absolute;
-    left: 850px;*/
+    position: relative;
+    left: 100px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 div.pg4-div3 {
-    /*position: absolute;
-    top: 1400px;*/
+    position: relative;
+    top: 20px;
+    left: 200px;
 }
 
 #img7 {
-    /*position: absolute;
-    left: 300px;*/
+    position: relative;
+    left: 0px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img8 {
-    /*position: absolute;
-    left: 600px;*/
+    position: relative;
+    left: 50px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img9 {
-    /*position: absolute;
-    left: 850px;*/
+    position: relative;
+    left: 100px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 div.pg4-div4 {
-    /*position: absolute;
-    top: 1700px;*/
+    position: relative;
+    top: 20px;
+    left: 200px;
 
 }
 
 #img10 {
-    /*position: absolute;
-    left: 300px;*/
+    position: relative;
+    left: 0px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img11 {
-    /*position: absolute;
-    left: 600px;*/
+    position: relative;
+    left: 50px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img12 {
-    /*position: absolute;
-    left: 900px;*/
+    position: relative;
+    left: 100px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 div.pg4-div5 {
-    /*position: absolute;
-    top: 1970px;*/
+    position: relative;
+    top: 20px;
+    left: 200px;
 
 }
 
 #img13 {
-    /*position: absolute;
-    left: 300px;*/
+    position: relative;
+    left: 0px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img14 {
-    /*position: absolute;
-    left: 600px;*/
+    position: relative;
+    left: 50px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img15 {
-    /*position: absolute;
-    left: 900px;*/
+    position: relative;
+    left: 100px;
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
