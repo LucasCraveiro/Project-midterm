@@ -1,14 +1,14 @@
-body {
-    
+/*body {
+
     margin: 0 auto;
     overflow: scroll;
     background-color: #f9f8ed;
-}
+}*/
 .p4-header {
     background-color: #f9f8f4;
     padding: 60px;
     text-align: center;
-        
+
 }
 
 .p4-header h1 {
@@ -17,7 +17,7 @@ body {
     color: #3d3d3d;
     padding: 0 50px;
     text-align: center;
-    
+
 }
 
 
@@ -38,7 +38,7 @@ body {
 .p4-navbar li {
     width: 80px;
     float: left;
-    display: inline; 
+    display: inline;
 }
 
 
@@ -61,7 +61,7 @@ h1  {
     font-family: 'Righteous', cursive;
     font-size: 30px;
     text-align: center;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 h2  {
@@ -78,139 +78,139 @@ h3  {
 }
 
 .imgdog {
-    position: absolute;
+    /*position: absolute;
     top: 320px;
-    right: 340px;
+    right: 340px;*/
     box-shadow: 2px 2px 8px black;
-} 
+}
 
 div.pg4-div1 {
-    position: absolute;
-    top: 800px;
-    
+    /*position: absolute;
+    top: 800px;*/
+
 }
 
 #img1 {
-    position: absolute;
-    left: 300px;
+    /*position: absolute;
+    left: 300px;*/
     box-shadow: 2px 2px 8px black;
 }
 
 #img2 {
-    position: absolute;
-    left: 600px;
+    /*position: absolute;
+    left: 600px;*/
     box-shadow: 2px 2px 8px black;
 }
 
 #img3 {
-    position: absolute;
-    left: 850px;
+    /*position: absolute;
+    left: 850px;*/
     box-shadow: 2px 2px 8px black;
 }
 
 div.pg4-div2 {
-    position: absolute;
-    top: 1100px;
-    
+    /*position: absolute;
+    top: 1100px;*/
+
 }
 
 #img4 {
-    position: absolute;
-    left: 300px;
+    /*position: absolute;
+    left: 300px;*/
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img5 {
-    position: absolute;
-    left: 600px;
+    /*position: absolute;
+    left: 600px;*/
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img6 {
-    position: absolute;
-    left: 850px;
+    /*position: absolute;
+    left: 850px;*/
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 div.pg4-div3 {
-    position: absolute;
-    top: 1400px;
+    /*position: absolute;
+    top: 1400px;*/
 }
 
 #img7 {
-    position: absolute;
-    left: 300px;
+    /*position: absolute;
+    left: 300px;*/
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img8 {
-    position: absolute;
-    left: 600px;
+    /*position: absolute;
+    left: 600px;*/
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img9 {
-    position: absolute;
-    left: 850px;
+    /*position: absolute;
+    left: 850px;*/
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 div.pg4-div4 {
-    position: absolute;
-    top: 1700px;
-    
+    /*position: absolute;
+    top: 1700px;*/
+
 }
 
 #img10 {
-    position: absolute;
-    left: 300px;
+    /*position: absolute;
+    left: 300px;*/
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img11 {
-    position: absolute;
-    left: 600px;
+    /*position: absolute;
+    left: 600px;*/
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img12 {
-    position: absolute;
-    left: 900px;
+    /*position: absolute;
+    left: 900px;*/
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 div.pg4-div5 {
-    position: absolute;
-    top: 1970px;
-    
+    /*position: absolute;
+    top: 1970px;*/
+
 }
 
 #img13 {
-    position: absolute;
-    left: 300px;
+    /*position: absolute;
+    left: 300px;*/
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img14 {
-    position: absolute;
-    left: 600px;
+    /*position: absolute;
+    left: 600px;*/
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
 
 #img15 {
-    position: absolute;
-    left: 900px;
+    /*position: absolute;
+    left: 900px;*/
     margin: 5px;
     box-shadow: 2px 2px 8px black;
 }
