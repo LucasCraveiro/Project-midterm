@@ -1,19 +1,9 @@
 
-body {
-    
-    margin: 0 auto;
-    overflow: scroll;
-    background-color: #f9f8ed;
-}
-
-
 
 .p2-header {
     background-color: #f9f8f4;
     padding: 60px;
     text-align: center;
-    
-    
 }
 
 
@@ -23,7 +13,7 @@ body {
     color: #3d3d3d;
     padding: 0 50px;
     text-align: center;
-    
+
 }
 
 
@@ -45,7 +35,7 @@ body {
 .p2-navbar li {
     width: 80px;
     float: left;
-    display: inline; 
+    display: inline;
 }
 
 
@@ -69,8 +59,8 @@ body {
     width: 1060px;
     margin: 0 auto;
 }
-  
-    
+
+
 .p2-nav a {
     text-decoration: none;
     border-radius: 5px;
@@ -83,19 +73,19 @@ body {
     line-height: 1.42857;
     width: 20px;
     float: left;
-    
+
 }
-ul:after {
+.p2-nav a:hover {
+    opacity: 0.7;
+    background-color: #555555;
+    color: white;
+}
+.p2-images:after {
     content: "";
     display: block;
     clear: both;
 }
 
-a:hover {
-    opacity: 0.7;
-    background-color: #555555;
-    color: white;
-}
 
 .p2-box {
     clear: both;
@@ -131,7 +121,7 @@ a:hover {
     color: #3d3d3d;
     padding-bottom: 40px;
     float: left;
-    
+
 }
 
 
@@ -139,11 +129,11 @@ a:hover {
     width: 95%;
     height: 250px;
     padding-top: 7px;
-    
+
 }
 
 
-    
+
 
 .p2-scale-img {
     float: left;
@@ -169,7 +159,7 @@ a:hover {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    
+
 }
 
 .p2-back {
@@ -179,12 +169,12 @@ a:hover {
     padding-top: 30px;
     font-family: 'Righteous', cursive;
     color: #3d3d3d;
-    
+
 }
 
 .p2-footer {
     text-align: center;
-    padding: 60px;  
-    clear: both; 
+    padding: 60px;
+    clear: both;
     background-color: #f9f8f4;
 }
