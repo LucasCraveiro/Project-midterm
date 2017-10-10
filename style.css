@@ -165,9 +165,6 @@ a:active {
     float: left;
     width: 50%;
 }
-.p1-mod-foods:hover {
-  cursor: pointer;
-}
 .p1-mod-foods.good:hover:before,
 .p1-mod-foods.bad:hover:before {
     content: "";
