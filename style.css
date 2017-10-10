@@ -597,21 +597,21 @@ body {
     background-size: 50%;
 }
 
-/*h1  {
+.p3-h1  {
     font-family: 'Righteous', cursive;
     font-size: 30px;
 }
 
-h2  {
+.p3-h2  {
     font-family: 'Righteous', cursive;
     font-size: 25px;
 }
 
-h3  {
+.p3-h3 {
     font-family: 'Righteous', cursive;
     font-size: 18px;
     color: darkgrey;
-}*/
+}
 
 div.p3-div1 {
 
@@ -633,6 +633,7 @@ ul.p3-ul1 {
     list-style: disc;
     font-size: 20px;
     padding: 20px;
+    line-height: 1.4;
 }
 
 img.p3-img1 {
@@ -761,38 +762,34 @@ div.p3-div3 a {
     background-size: 50%;
 }
 
-/*h1  {
+.p4-h1  {
     font-family: 'Righteous', cursive;
     font-size: 30px;
     text-align: center;
     margin-top: 10px;
 }
 
-h2  {
+.p4-h2  {
     font-family: 'Righteous', cursive;
     font-size: 25px;
     font-style: italic;
     margin-left: 10px;
+    line-height: 1.4;
 }
-
-h3  {
-    font-family: 'Righteous', cursive;
-    font-size: 18px;
-    color: darkgrey;
-}*/
 
 .imgdog {
     position: relative;
     top: 0px;
     left: 280px;
     box-shadow: 2px 2px 8px black;
+    margin-bottom: 50px;
 }
 
 div.pg4-div1 {
     position: relative;
     top: 10px;
     left: 200px;
-
+    margin-bottom: 50px;
 }
 
 #img1 {
@@ -817,7 +814,7 @@ div.pg4-div2 {
     position: relative;
     top: 20px;
     left: 200px;
-
+    margin-bottom: 50px;
 }
 
 #img4 {
@@ -845,6 +842,7 @@ div.pg4-div3 {
     position: relative;
     top: 20px;
     left: 200px;
+    margin-bottom: 50px;
 }
 
 #img7 {
@@ -872,7 +870,7 @@ div.pg4-div4 {
     position: relative;
     top: 20px;
     left: 200px;
-
+    margin-bottom: 50px;
 }
 
 #img10 {
@@ -900,7 +898,7 @@ div.pg4-div5 {
     position: relative;
     top: 20px;
     left: 200px;
-
+    margin-bottom: 50px;
 }
 
 #img13 {
