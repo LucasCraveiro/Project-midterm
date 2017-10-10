@@ -76,6 +76,7 @@ body {
 }
 .p1-sec-cmn#foods {
     position: relative;
+    height: 880px;
 }
 .p1-sec-cmn#introduction {
     height: 600px;
