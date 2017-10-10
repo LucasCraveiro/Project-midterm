@@ -1,17 +1,12 @@
-//スクロール量を取得する関数
+// function get scroll amount
 function getScrolled() {
  return ( window.pageYOffset !== undefined ) ? window.pageYOffset: document.documentElement.scrollTop;
 }
 
-//トップに戻るボタンの要素を取得
+// Get button element
 var topButton = document.getElementById( 'page-top' );
 
-// ボタンの表示・非表示
-// window.onscroll = function() {
-//   ( getScrolled() > 500 ) ? topButton.classList.add( 'fade-in' ): topButton.classList.remove( 'fade-in' );
-// };
-//
-//トップに移動する関数
+// function move to top
 function scrollToTop() {
   var scrolled = getScrolled();
   window.scrollTo( 0, Math.floor( scrolled / 1.2 ) );
@@ -19,8 +14,3 @@ function scrollToTop() {
     window.setTimeout( scrollToTop, 20 );
   }
 };
-
-//イベント登録
-// topButton.onclick = function() {
-//   scrollToTop();
-// };
