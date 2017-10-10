@@ -4,6 +4,17 @@
 body {
     background-color: #F9F8ED;
 }
+a {
+  color: #8e8e8e;
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #8e8e8e;
+}
 
 /* --- clearfix --- */
 .p1-box-foods:after,
