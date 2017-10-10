@@ -618,7 +618,7 @@ div.p3-div1 {
     position: relative;
     top: 20px;
     left: 120px;
-
+    margin-bottom: 20px;
 }
 
 div.p3-div1 p {
@@ -663,7 +663,7 @@ div.p3-div2-1 {
     position: relative;
     top: -20px;
     left: 150px;
-
+    margin-bottom: 50px;
 }
 
 div.p3-div2 img:hover {
@@ -693,6 +693,7 @@ div.p3-div3 {
     top: -10px;
     left: 150px;
     border-top: 2px black;
+    margin-bottom: 50px;
 }
 
 div.p3-div3 img:hover {
