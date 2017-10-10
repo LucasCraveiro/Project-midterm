@@ -8,6 +8,9 @@ a {
   color: #8e8e8e;
   text-decoration: none;
 }
+a:hover {
+  cursor: pointer;
+}
 a:link,
 a:visited,
 a:hover,
@@ -161,6 +164,9 @@ a:active {
     position: relative;
     float: left;
     width: 50%;
+}
+.p1-mod-foods:hover {
+  cursor: pointer;
 }
 .p1-mod-foods.good:hover:before,
 .p1-mod-foods.bad:hover:before {
